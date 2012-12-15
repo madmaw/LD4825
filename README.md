@@ -3,15 +3,14 @@ Liar's Lair
 
 A (untested) card game for between 3 and 8 players. 
 
-There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have "Goats are reknown for their love of prunes" while the other would have "Goats hate prunes". The information on the cards is intentionally bizarre so that it may not be independenctly verified, individual card pairs may also be swapped between decks, provided they never appear in the same deck.
+There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have a card that states "Goats are reknown for their love of prunes" while the other would have "Goats hate prunes". The information on the cards is intentionally bizarre so that it may not be independenctly verified (although goats probably do love prunes). Between games card-pairs may also be swapped between decks, provided they never appear in the same deck.
 
-* There are 40 cards in total. 
-* You may add or remove pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
+* You may add or remove card-pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
 * Players should start with a minimum of 4 cards (2 truth and 2 lies).
 
 ## Starting a game
 
-1. At the start of play one deck is chosen at random to be the "deck of lies", while the other is the "deck of truth". The decks are shuffled
+1. At the start of play one deck is chosen at random to be the "deck of lies", while the other is the "deck of truth". Each deck is shuffled (but the decks are not mixed together)
 2. Each player is given an equal number of cards from both decks and are informed of which cards are facts and which cards are lies. 
 	* Note that players only know of the truthfulness of their own cards, not the other players. 
 	* Players may write secret notes at any time (not on the cards though - are you crazy?)
@@ -39,6 +38,6 @@ The game is won when one of three things happen
 
 1. All players except one are knocked out
 2. A player has a hand containing all truth cards
-	1. A player may declare this at the end of a round, however if they get it wrong they will be knocked out of the game
+	* A player may declare this at the end of a round, however if they get it wrong they will be knocked out of the game
 3. None of the remaining players can prove the other to be a liar
-	1. A player may declare a stalemate at the end of a round, however if they get it wrong they will be knocked out of the game
+	* A player may declare a stalemate at the end of a round, however if they get it wrong they will be knocked out of the game
