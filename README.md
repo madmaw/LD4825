@@ -38,6 +38,6 @@ The game is won when one of three things happen
 
 1. All players except one are knocked out
 2. A player has a hand containing all truth cards
-	* A player may declare this at the end of a round, however if they get it wrong they will be knocked out of the game
+	* A player may declare this at the end of a round (by exposing their hand to all the other players), however if they get it wrong they will be knocked out of the game
 3. None of the remaining players can prove the other to be a liar
-	* A player may declare a stalemate at the end of a round, however if they get it wrong they will be knocked out of the game
+	* A player may declare a stalemate at the end of a round (by exposing their hand to all the other players), however if they get it wrong they will be knocked out of the game
