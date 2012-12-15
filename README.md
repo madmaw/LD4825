@@ -1,12 +1,13 @@
 Liar's Lair
 ======
 
-A (untested) card game for between 3 and 8 players. 
+A (untested) card game for between 3 and 8 players. It's designed to be played with a computer "referee", however there is no reason that a human (or, with some minor rule changes, the players themselves) couldn't perform that role
 
-There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have a card that states "Goats are reknown for their love of prunes" while the other would have "Goats hate prunes". The information on the cards is intentionally bizarre so that it may not be independenctly verified (although goats probably do love prunes). Between games card-pairs may also be swapped between decks, provided they never appear in the same deck.
+There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have a card that states "Goats are reknown for their love of prunes" while the other would have "Goats hate prunes", these two cards are referred to as a "card-pair". The information on the cards is intentionally bizarre so that it may not be independenctly verified (although goats probably do love prunes). Between games card-pairs may also be swapped between decks, provided they both never appear in the same deck.
 
 * You may add or remove card-pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
 * Players should start with a minimum of 4 cards (2 truth and 2 lies).
+
 
 ## Starting a game
 
@@ -40,3 +41,8 @@ The game is won when one of two things happen
 3. None of the remaining players can prove you to be a liar
 	* Any player may declare a themselves the winner at the end of a round by exposing their hand to all the other players. Going in a clockwise direction from the "winner" the other players may expose a single card to the would-be victor, if that card is "true" and contradicts one of the cards in their hand, then the declarer is knocked out and the game continues. If the card is false, then the player who showed the card is knocked out, even if a subsequent player proves the declarer to be a liar. If nobody can prove the declarer a liar, then the delarer wins. 
  	* Multiple people may declare at the end of the round. Declarers are dealt with in a clockwise direction from the starting player. You may not declare after someone on your left has declared.
+
+## Computer Implementation Notes
+
+* To make it easier to remember, the information on the card-pairs should be randomly generated/selected from a large set of potential data. In this way players are less likely to remember "facts" from previous games
+* Players should be able to make secret notes to themselves on cards. At the start of the game the computer should mark each card given to the player with a secret note indicating whether it's true or false. In the pen-and-paper version this can be achieved, albiet with somewhat less elegance, by simply writing down the card name
