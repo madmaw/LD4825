@@ -1,9 +1,13 @@
-LD4825
+Liar's Lair
 ======
 
-Liar's Lair - a card game for between 3 and 10 players
+A (untested) card game for between 3 and 8 players. 
 
 There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have "Goats are reknown for their love of prunes" while the other would have "Goats hate prunes". The information on the cards is intentionally bizarre so that it may not be independenctly verified, individual card pairs may also be swapped between decks, provided they never appear in the same deck.
+
+* There are 40 cards in total. 
+* You may add or remove pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
+* Players should start with a minimum of 4 cards (2 truth and 2 lies).
 
 ## Starting a game
 
