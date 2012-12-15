@@ -32,6 +32,7 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 ## Winning
 
 The game is won when one of three things happen
+
 1. All players except one are knocked out
 2. A player has a hand containing all truth cards
 	1. A player may declare this at the end of a round, however if they get it wrong they will be knocked out of the game
