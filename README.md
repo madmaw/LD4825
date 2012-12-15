@@ -34,10 +34,9 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 
 ## Winning
 
-The game is won when one of three things happen
+The game is won when one of two things happen
 
 1. All players except one are knocked out
-2. A player has a hand containing all truth cards
-	* A player may declare this at the end of a round (by exposing their hand to all the other players), however if they get it wrong they will be knocked out of the game
-3. None of the remaining players can prove the other to be a liar
-	* A player may declare a stalemate at the end of a round (by exposing their hand to all the other players), however if they get it wrong they will be knocked out of the game
+3. None of the remaining players can prove you to be a liar
+	* Any player may declare a themselves the winner at the end of a round by exposing their hand to all the other players. Going in a clockwise direction from the "winner" the other players may expose a single card to the would-be victor, if that card is "true" and contradicts one of the cards in their hand, then the declarer is knocked out and the game continues. If the card is false, then the player who showed the card is knocked out, even if a subsequent player proves the declarer to be a liar. If nobody can prove the declarer a liar, then the delarer wins. 
+ 	* Multiple people may declare at the end of the round. Declarers are dealt with in a clockwise direction from the starting player. You may not declare after someone on your left has declared.
