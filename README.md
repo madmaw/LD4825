@@ -5,8 +5,6 @@ A (untested) card game for between 3 and 8 players. Liar's Lair is a game of dec
 
 It's designed to be played with a computer "referee", however there is no reason that a human (or, with some minor rule changes, the players themselves) couldn't perform that role.
 
-![Card back](https://github.com/madmaw/LD4825/blob/master/images/back_bw_medium.png?raw=true) ![Card back](https://github.com/madmaw/LD4825/blob/master/images/goat_prune_1_bw_medium.png?raw=true)
-
 ## Setting Up
 
 There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have a card that states "Goats are renown for their love of prunes" while the other would have "Goats hate prunes", these two cards are referred to as a "card-pair". The information on the cards is intentionally bizarre so that it may not be casually independenctly verified (although goats probably do love prunes). Between games card-pairs may also be swapped between decks, provided they both never appear in the same deck.
@@ -14,6 +12,8 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 * You may add or remove card-pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
 * Players should start with a minimum of 4 cards (2 truth and 2 lies).
 * Cards images are available for download and printing in the images directory of this project. 
+
+![Card back](https://github.com/madmaw/LD4825/blob/master/images/back_bw_medium.png?raw=true) ![Card front 1](https://github.com/madmaw/LD4825/blob/master/images/goat_prune_1_bw_medium.png?raw=true) ![Card front 2](https://github.com/madmaw/LD4825/blob/master/images/goat_prune_2_bw_medium.png?raw=true)
 
 
 ## Starting a game
