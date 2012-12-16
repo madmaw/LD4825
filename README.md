@@ -25,9 +25,9 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 ## Playing a hand
 
 1. The starting player picks a card from their hand and plays it
-2. The player immedately to the left of that player then plays a card, if that card contradicts any card in play then 
+2. The player immediately to the left of that player then plays a card, if that card contradicts any card in play then
 	1. the person who played the lie card is knocked out of the game 
-	2. both cards are immedately removed from play
+	2. both cards are immediately removed from play
 	3. the person who played the truth card may select a card from the departing players deck, however that player will not be able to reclaim a card at the end of the round
 3. The round continues in an clockwise direction until everyone has played one card
 
@@ -44,11 +44,27 @@ The game is won when one of two things happen
 
 1. All players except one are knocked out
 2. None of the remaining players can prove you to be a liar
-	* Any player may declare a themselves the winner at the end of a round by exposing their hand to all the other players. Going in a clockwise direction from the "winner" the other players may expose a single card to the would-be victor, if that card is "true" and contradicts one of the cards in their hand, then the declarer is knocked out and the game continues. If the card is false, then the player who showed the card is knocked out, even if a subsequent player proves the declarer to be a liar. If nobody can prove the declarer a liar, then the delarer wins. 
+	* Any player may declare a themselves the winner at the end of a round by exposing their hand to all the other players. Going in a clockwise direction from the "winner" the other players may expose a single card to the would-be victor, if that card is "true" and contradicts one of the cards in their hand, then the declarer is knocked out and the game continues. If the card is false, then the player who showed the card is knocked out, even if a subsequent player proves the declarer to be a liar. If nobody can prove the declarer a liar, then the declarer wins.
  	* Multiple people may declare at the end of the round. Declarers are dealt with in a clockwise direction from the starting player. You may not declare after someone on your left has declared.
 	* If you declare and you have conflicting cards in your hand (both cards in a card-pair) then you are immediately disqualified
 
-## Computer Implementation Notes
+## Variations
 
-* To make it easier to remember, the information on the card-pairs should be randomly generated/selected from a large set of potential data. In this way players are less likely to remember "facts" from previous games
-* Players should be able to make secret notes to themselves on cards. At the start of the game the computer should mark each card given to the player with a secret note indicating whether it's true or false. In the pen-and-paper version this can be achieved, albiet with somewhat less elegance, by simply writing down the card name
+These may help address various balance issues with the game or make it more fun
+
+* Players start with a random selection of truth and lies cards (not an evenly matched number of both)
+* Upon finishing a round, the new starting player is the person on the old starting players right (instead of left), all other directions remain the same
+* Only deal a portion of the deck at the start of the game, so the equivalent card for a given pair may not be in play
+* A player can win by having a hand composed entirely of provable lies (that is, lies for which someone else is holding the equivalent truth card). Call this style of win "absolution"
+* Upon being knocked out, the departing player does not reveal their hand to the victor, but instead "gifts" them a card from their hand
+* Upon being knocked out, the departing player does not reveal their hand to the victor, but instead chooses a card from their hand to add to the cards in play. They are still knocked out, however this card may be reclaimed by any player at the end of the round
+* Each player is assigned a fictional character (eg. Ms Scarlet, Colonel Mustard, etc...) and the facts/lies in play relate directly to the fictional character of the players (eg. Ms Scarlet is prone to bouts of drinking/Ms Scarlet is known for her abstinence)
+    * A further variation would be to have all the truth cards for a given player start with that player and the lies be distributed amongst the other players (I suspect this will make the game too predicable though)
+        * Alternatively the player could start with all the lies about themselves and the other players could start with a random selection of truth cards
+            * The character assigned to the player is known only to themselves, an additional victory condition is to remove any truth cards about that character from play (either by knocking out players who hold them, or by having them in your own hand) and revealing your identity
+
+## Software Implementation Notes
+
+* The computer takes the place of the referee (and potentially other players), keeping track of which cards are true and which are lies and resolving conflicts
+* To make it easier to remember, the information on the card-pairs should be randomly generated/selected from a large set of potential data. In this way players are less likely to remember, and be confused by, "facts" from previous games
+* Players should be able to make secret notes to themselves on cards. At the start of the game the computer should mark each card given to the player with a secret note indicating whether it's true or false. In the pen-and-paper version this can be achieved, albeit with somewhat less elegance, by simply writing down the card name
