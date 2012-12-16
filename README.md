@@ -1,7 +1,11 @@
 Liar's Lair
 ======
 
-A (untested) card game for between 3 and 8 players. It's designed to be played with a computer "referee", however there is no reason that a human (or, with some minor rule changes, the players themselves) couldn't perform that role
+A (untested) card game for between 3 and 8 players. Liar's Lair is a game of deceit, misdirection, theft, accusation, and trickery.  
+
+It's designed to be played with a computer "referee", however there is no reason that a human (or, with some minor rule changes, the players themselves) couldn't perform that role.
+
+## Setting Up
 
 There are two decks of cards, each card from one deck has an equivalent card in the other deck that has a conflicting piece of information. For example one deck might have a card that states "Goats are renown for their love of prunes" while the other would have "Goats hate prunes", these two cards are referred to as a "card-pair". The information on the cards is intentionally bizarre so that it may not be casually independenctly verified (although goats probably do love prunes). Between games card-pairs may also be swapped between decks, provided they both never appear in the same deck.
 
@@ -25,23 +29,24 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 	1. the person who played the lie card is knocked out of the game 
 	2. both cards are immedately removed from play
 	3. the person who played the truth card may select a card from the departing players deck, however that player will not be able to reclaim a card at the end of the round
-3. The round continues until everyone has played one card
+3. The round continues in an clockwise direction until everyone has played one card
 
 ## Finishing a round
 
-1. The starting player reclaims a card from the cards in play (excepting the card they themselves have just played), unless they have knocked out another player this round, in which case they skip picking up a card
-2. The player immediately to the left then reclaims a card, unless they have knocked out another player this round, in which case they skip picking up a card
-3. The round continues until there are no more cards
-4. The player to the left of the starting player becomes the new starting player and the round continues
+1. The last player to play a card, reclaims a card from the cards in play (including, if they wish, the card they themselves have just played), unless they have knocked out another player this round, in which case they skip picking up a card
+2. The player immediately to ther right then reclaims a card, unless they have knocked out another player this round, in which case they skip picking up a card
+3. Players continue to reclaim cards in an anti-clockwise direction  until there are no more cards
+4. The player to the left of the starting player becomes the new starting player and a new round starts
 
 ## Winning
 
 The game is won when one of two things happen
 
 1. All players except one are knocked out
-3. None of the remaining players can prove you to be a liar
+2. None of the remaining players can prove you to be a liar
 	* Any player may declare a themselves the winner at the end of a round by exposing their hand to all the other players. Going in a clockwise direction from the "winner" the other players may expose a single card to the would-be victor, if that card is "true" and contradicts one of the cards in their hand, then the declarer is knocked out and the game continues. If the card is false, then the player who showed the card is knocked out, even if a subsequent player proves the declarer to be a liar. If nobody can prove the declarer a liar, then the delarer wins. 
  	* Multiple people may declare at the end of the round. Declarers are dealt with in a clockwise direction from the starting player. You may not declare after someone on your left has declared.
+	* If you declare and you have conflicting cards in your hand (both cards in a card-pair) then you are immediately disqualified
 
 ## Computer Implementation Notes
 
