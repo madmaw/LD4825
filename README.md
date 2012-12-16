@@ -59,7 +59,7 @@ These may help address various balance issues with the game or make it more fun
 * Only deal a portion of the deck at the start of the game, so the equivalent card for a given pair may not be in play
 * A player can win by having a hand composed entirely of provable lies (that is, lies for which someone else is holding the equivalent truth card). Call this style of win "absolution"
 * Upon being knocked out, the departing player does not reveal their hand to the victor, but instead "gifts" them a card from their hand
-* Upon being knocked out, the departing player does not reveal their hand to the victor, but instead chooses a card from their hand to add to the cards in play. They are still knocked out, however this card may be reclaimed by any player at the end of the round
+* Upon being knocked out, the departing player does not reveal their hand to the victor, but instead chooses a card from their hand to add to the cards in play. They are still knocked out, however this card may be reclaimed by any player, as per the normal rules for reclaiming cards, at the end of the round
 * Each player is assigned a fictional character (eg. Ms Scarlet, Colonel Mustard, etc...) and the facts/lies in play relate directly to the fictional character of the players (eg. Ms Scarlet is prone to bouts of drinking/Ms Scarlet is known for her abstinence)
     * A further variation would be to have all the truth cards for a given player start with that player and the lies be distributed amongst the other players (I suspect this will make the game too predicable though)
     * Alternatively the player could start with all the lies about themselves and the other players could start with a random selection of truth cards
