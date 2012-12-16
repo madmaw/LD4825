@@ -35,7 +35,7 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 
 1. The last player to play a card, reclaims a card from the cards in play (including, if they wish, the card they themselves have just played), unless they have knocked out another player this round, in which case they skip picking up a card
 2. The player immediately to ther right then reclaims a card, unless they have knocked out another player this round, in which case they skip picking up a card
-3. Players continue to reclaim cards in an anti-clockwise direction  until there are no more cards
+3. Players continue to reclaim cards in an anti-clockwise direction  until there are no more cards (at this point, every player still in the game should have the same number of cards in their hand that they started with)
 4. The player to the left of the starting player becomes the new starting player and a new round starts
 
 ## Winning
