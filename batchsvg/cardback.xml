@@ -168,6 +168,42 @@
             <property name="title">Wealth</property>
             <property name="description">Max is a pauper who presents himself as wealthy</property>
         </value>
+        <!-- 17 -->
+        <value name="sleeping_1">
+            <property name="title">Sleeping</property>
+            <property name="description">Bishop Collins has been sleeping poorly, as though something is troubling him</property>
+        </value>
+        <value name="sleeping_2">
+            <property name="title">Sleeping</property>
+            <property name="description">Bishop Collins has slept soundly all his life</property>
+        </value>
+        <!-- 18 -->
+        <value name="weather_1">
+            <property name="title">Weather</property>
+            <property name="description">It is forecast that the weather in Candle Cove will be fine tomorrow</property>
+        </value>
+        <value name="weather_2">
+            <property name="title">Weather</property>
+            <property name="description">It is forecast that it will be raining in Candle Cove tomorrow</property>
+        </value>
+        <!-- 19 -->
+        <value name="directions_1">
+            <property name="title">Directions</property>
+            <property name="description">The bus depot is just around the corner, buses run every 30 minutes on the hour</property>
+        </value>
+        <value name="directions_2">
+            <property name="title">Directions</property>
+            <property name="description">The bus depot is on the other side of town, buses run twice daily</property>
+        </value>
+        <!-- 20 -->
+        <value name="faithfulness_1">
+            <property name="title">Faithfulness</property>
+            <property name="description">Jack has been faithful to his wife throughout their entire marriage</property>
+        </value>
+        <value name="faithfulness_2">
+            <property name="title">Faithfulness</property>
+            <property name="description">Unbeknownst to his wife, Jack has had many extra-marital affairs</property>
+        </value>
     </value-set>
 	<value-set name="size">
 		<value name="medium">
