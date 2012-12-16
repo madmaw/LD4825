@@ -5,7 +5,7 @@ A (untested) card game for between 3 and 8 players. Liar's Lair is a game of dec
 
 It's designed to be played with a computer "referee", however there is no reason that a human (or, with some minor rule changes, the players themselves) couldn't perform that role.
 
-![Card back](blob/master/images/back_bw_medium.png?raw=true)
+![Card back](https://github.com/madmaw/LD4825/blob/master/images/back_bw_medium.png?raw=true)
 
 ## Setting Up
 
