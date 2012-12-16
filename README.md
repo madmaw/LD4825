@@ -13,7 +13,7 @@ There are two decks of cards, each card from one deck has an equivalent card in 
 
 * You may add or remove card-pairs to increase or decrease the difficulty or to make the number of cards given to each player be a round number. 
 * Players should start with a minimum of 4 cards (2 truth and 2 lies).
-* Cards images are available for download and printing in the images directory of this project. 
+* Cards images are available for download and printing in the images directory of this project. You can also obtain a zip file of the entire project, including the images, by using the 'ZIP' button at the top of the page.
 
 ![Card front 1](https://github.com/madmaw/LD4825/blob/master/images/goat_prune_1_bw_medium.png?raw=true) ![Card front 2](https://github.com/madmaw/LD4825/blob/master/images/goat_prune_2_bw_medium.png?raw=true)
 
