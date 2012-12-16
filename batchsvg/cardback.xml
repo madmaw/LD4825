@@ -1,0 +1,186 @@
+<batchsvg name-file="cardback_name.xslt" svg-file="cardfront_svg.xslt">
+	<!-- special value set for animations -->
+	<valueset name="outputType">
+        <!--
+		<value>svg</value>
+        -->
+        <value>png</value>
+	</valueset>
+    <value-set name="style">
+        <!--
+   		<value name="red">
+            <property name="stroke">#773333</property>
+            <property name="fill">#ffeeee</property>
+            <property name="diamond-fill">#bb5555</property>
+   		</value>
+   		-->
+        <value name="bw">
+               <property name="stroke">black</property>
+               <property name="fill">white</property>
+               <property name="diamond-fill">#333333</property>
+      		</value>
+   	</value-set>
+    <value-set name="content">
+        <value name="back">
+            <property name="svg-file">cardback_svg.xslt</property>
+        </value>
+        <!-- 1 -->
+        <value name="goat_prune_1">
+            <property name="title">Goats &amp; Prunes</property>
+            <property name="description">Goats are renown for their love of prunes</property>
+        </value>
+        <value name="goat_prune_2">
+            <property name="title">Goats &amp; Prunes</property>
+            <property name="description">Goats hate prunes</property>
+        </value>
+        <!-- 2 -->
+        <value name="bob_beard_1">
+            <property name="title">Bob's Beard</property>
+            <property name="description">Bob's beard is full and luxurious</property>
+        </value>
+        <value name="bob_beard_2">
+            <property name="title">Bob's Beard</property>
+            <property name="description">Bob's beard is rather unimpressive and sparse</property>
+        </value>
+        <!-- 3 -->
+        <value name="ocean_treasure_1">
+            <property name="title">Ocean Treasure</property>
+            <property name="description">There is treasure to be found at the bottom of the ocean</property>
+        </value>
+        <value name="ocean_treasure_2">
+            <property name="title">Ocean Treasure</property>
+            <property name="description">The bottom of the ocean has no treasure, it is mostly sand and fish poo</property>
+        </value>
+        <!-- 4 -->
+        <value name="microorganism_1">
+            <property name="title">Microorganism</property>
+            <property name="description">There exists a microorganism that is very common and completely undetectable</property>
+        </value>
+        <value name="microorganism_2">
+            <property name="title">Microorganism</property>
+            <property name="description">All microorganisms are detectable, if they are undetectable they do not exist</property>
+        </value>
+        <!-- 5 -->
+        <value name="samurai_1">
+            <property name="title">Samurai</property>
+            <property name="description">The ancient Samurai was only as good has his blade</property>
+        </value>
+        <value name="samurai_2">
+            <property name="title">Samurai</property>
+            <property name="description">The ancient Samurai relied upon many skills, least of all his swordsmanship</property>
+        </value>
+        <!-- 6 -->
+        <value name="janes_hair_1">
+            <property name="title">Jane's Hair</property>
+            <property name="description">Jane dyes her hair, but only back to the colour it was when she was younger</property>
+        </value>
+        <value name="janes_hair_2">
+            <property name="title">Jane's Hair</property>
+            <property name="description">Jane dyes her hair, and it was never that colour!</property>
+        </value>
+        <!-- 7 -->
+        <value name="pop_music_1">
+            <property name="title">Pop Music</property>
+            <property name="description">Put Your Hands Up Y'All is universally considered to be the greatest song of all time</property>
+        </value>
+        <value name="pop_music_2">
+            <property name="title">Pop Music</property>
+            <property name="description">Excepting a tasteless minority, Put Your Hands Up Y'All is universally reviled</property>
+        </value>
+        <!-- 8 -->
+        <value name="attic_ghost_1">
+            <property name="title">Attic Ghost</property>
+            <property name="description">There is a ghost in the attic</property>
+        </value>
+        <value name="attic_ghost_2">
+            <property name="title">Attic Ghost</property>
+            <property name="description">Ghosts, in the attic or otherwise, do not exist</property>
+        </value>
+        <!-- 9 -->
+        <value name="crying_game_1">
+            <property name="title">Crying Game</property>
+            <property name="description">Strong men also cry</property>
+        </value>
+        <value name="crying_game_2">
+            <property name="title">Crying Game</property>
+            <property name="description">Strong me, by definition, do not cry</property>
+        </value>
+        <!-- 10 -->
+        <value name="story_time_1">
+            <property name="title">Story Time</property>
+            <property name="description">James loves the story Wind in the Willows</property>
+        </value>
+        <value name="story_time_2">
+            <property name="title">Story Time</property>
+            <property name="description">James is an infant and is completely oblivious to Wind in the Willows, however reading it to him makes his mum happy</property>
+        </value>
+        <!-- 11 -->
+        <value name="orange_hills_1">
+            <property name="title">Orange Hills</property>
+            <property name="description">The television show Orange Hills is a modern day classic and in years to come will be considered a cutting commentary on urban life and love</property>
+        </value>
+        <value name="orange_hills_2">
+            <property name="title">Orange Hills</property>
+            <property name="description">The television show Orange Hills last aired 3 years ago and already has been forgotten</property>
+        </value>
+        <!-- 12 -->
+        <value name="dirks_yard_1">
+            <property name="title">Dirk's Yard</property>
+            <property name="description">There is something buried in a shallow grave in Dirk's yard</property>
+        </value>
+        <value name="dirks_yard_2">
+            <property name="title">Dirk's Yard</property>
+            <property name="description">Dirk doesn't own a yard</property>
+        </value>
+        <!-- 13 -->
+        <value name="spicy_taco_1">
+            <property name="title">Spicy Taco</property>
+            <property name="description">Crazy Mex has the spiciest tacos ever!</property>
+        </value>
+        <value name="spicy_taco_2">
+            <property name="title">Spicy Taco</property>
+            <property name="description">Crazy Mex has rather bland tacos geared toward the western palette, you'll be fine to eat there</property>
+        </value>
+        <!-- 14 -->
+        <value name="dead_husbands_1">
+            <property name="title">Dead Husbands</property>
+            <property name="description">Carla was distraught at the death of her husband</property>
+        </value>
+        <value name="dead_husbands_2">
+            <property name="title">Dead Husbands</property>
+            <property name="description">Carla showed no outward emotion at the death of her husband</property>
+        </value>
+        <!-- 15 -->
+        <value name="parking_fines_1">
+            <property name="title">Parking Fines</property>
+            <property name="description">If you live in another state, you don't need to pay parking fines</property>
+        </value>
+        <value name="parking_fines_2">
+            <property name="title">Parking Fines</property>
+            <property name="description">The non-payment of parking fines is enforced at a federal level</property>
+        </value>
+        <!-- 16 -->
+        <value name="wealth_1">
+            <property name="title">Wealth</property>
+            <property name="description">Max is incredibly wealthy</property>
+        </value>
+        <value name="wealth_2">
+            <property name="title">Wealth</property>
+            <property name="description">Max is a pauper who presents himself as wealthy</property>
+        </value>
+    </value-set>
+	<value-set name="size">
+		<value name="medium">
+            <property name="stroke-width">4</property>
+			<property name="width">256</property>
+            <property name="height">400</property>
+            <property name="rounding">25</property>
+            <property name="tongue-width">40</property>
+            <property name="tongue-length">300</property>
+            <property name="diamonds-across">6</property>
+            <property name="diamonds-down">6</property>
+            <property name="title-height">24</property>
+            <property name="description-height">16</property>
+		</value>
+	</value-set>
+</batchsvg>
